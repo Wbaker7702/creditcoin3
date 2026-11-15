@@ -252,7 +252,7 @@ jobs:
           toolchain: ${{ env.RUSTC_VERSION }}
 
       - name: Install cargo-machete
-        uses: taiki-e/install-action@v2.88.0
+        uses: taiki-e/install-action@v2.90.3
         with:
           tool: cargo-machete@0.9.1
 
@@ -298,7 +298,7 @@ jobs:
           save-if: ${{ github.event_name != 'pull_request' }}
 
       - name: Install cargo-nextest
-        uses: taiki-e/install-action@v2.88.0
+        uses: taiki-e/install-action@v2.90.3
         with:
           tool: cargo-nextest@0.9.78
 
