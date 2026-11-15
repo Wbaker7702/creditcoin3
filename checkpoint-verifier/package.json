@@ -37,7 +37,7 @@
     },
     "dependencies": {
         "@gluwa/attestcoin-sdk": "0.21.0",
-        "commander": "^14.0.0",
+        "commander": "^15.1.0",
         "ethers": "^6.17.0"
     }
 }
